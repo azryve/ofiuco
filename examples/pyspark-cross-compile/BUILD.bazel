@@ -1,0 +1,7 @@
+load("@ofiuco//python:poetry.bzl", "poetry_lock")
+
+poetry_lock(
+    name = "lock",
+    lock = "poetry.lock",
+    toml = "pyproject.toml",
+)
